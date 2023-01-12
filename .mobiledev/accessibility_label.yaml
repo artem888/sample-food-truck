@@ -6,4 +6,4 @@ appId: com.example.apple-samplecode.Food-Truck
     text: "Food Truck"
     index: 2
 - tapOn:
-    text: "donut_editor"
+    id: "donut_editor"
