@@ -1,0 +1,9 @@
+appId: com.example.apple-samplecode.Food-Truck
+---
+- launchApp:
+    clearState: true
+- tapOn:
+    text: "Food Truck"
+    index: 2
+- tapOn:
+    text: "donut_editor"

@@ -1,0 +1,20 @@
+appId: com.example.apple-samplecode.Food-Truck
+---
+- launchApp:
+    clearState: true
+- tapOn:
+    text: "New Orders"
+- assertVisible:
+    text: "Order#1224"
+- tapOn:
+    point: "50%,26%"
+- tapOn:
+    text: "Prepare"
+- tapOn:
+    text: "Ready"
+- tapOn:
+    text: "Done"
+- tapOn:
+    text: "Orders"
+- assertNotVisible:
+    text: "Order#1224"

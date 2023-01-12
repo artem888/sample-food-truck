@@ -80,7 +80,7 @@ struct Sidebar: View {
                 
                 NavigationLink(value: Panel.donutEditor) {
                     Label("Donut Editor", systemImage: "slider.horizontal.3")
-                }
+                }.accessibilityLabel("donut_editor")
                 
                 NavigationLink(value: Panel.topFive) {
                     Label("Top 5", systemImage: "trophy")
